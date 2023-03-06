@@ -1,0 +1,5 @@
+In order to establish a connection between the framework and postgres / oracle database, please follow the steps described below:
+
+1). Add the JDBC drivers jar files for postgres and oracle databases in the 'target' folder of the IntelliJ project;
+2). Go to IntelliJ and do the following:
+File > Project Structure > Modules > Dependencies > Add the JDBC driver jar file for the corresponding database > Apply > OK
